@@ -58,7 +58,7 @@ function downloadResume() {
     const link = document.createElement('a');
 
     // 2️⃣ Set the 'href' attribute to the resume file path
-    link.href = 'assets\resume\My_Resume.pdf'; // Change this to your actual file path
+    link.href = 'assets\resume\my_resume.pdf'; // Change this to your actual file path
 
     // 3️⃣ Set the 'download' attribute to specify the downloaded file name
     link.download = 'My_Resume.pdf'; // Change this to your preferred file name
