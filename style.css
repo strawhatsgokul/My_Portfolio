@@ -1,0 +1,40 @@
+ /* Timeline Line */
+ .timeline {
+    position: relative;
+    padding-left: 20px;
+    border-left: 3px solid #007bff;
+}
+
+/* Timeline Step */
+.timeline-step {
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 30px;
+}
+
+/* Circular Icon */
+.timeline-step::before {
+    content: "";
+    position: absolute;
+    left: -12px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: #007bff;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Step Title for underline animation*/
+.underline-text {
+    text-decoration: underline;
+    align-self: center;
+}
+
+
+#map {
+    height: 400px;
+}
+
