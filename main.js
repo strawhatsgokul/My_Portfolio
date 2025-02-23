@@ -21,6 +21,8 @@ function typeEffect(element, texts, typeSpeed, backSpeed, loop) {
     type();
 }
 
+
+// Map in in contact secction
 // Usage example:
 const element = document.getElementById('yourElementId');
 typeEffect(element, ['Full-Stack Developer.','Python Developer.'], 150, 40, true);
@@ -53,12 +55,13 @@ var polygon = L.polygon(
 ).addTo(map);
 
 
+// download resume
 function downloadResume() {
     
     const link = document.createElement('a');
 
     // 2️⃣ Set the 'href' attribute to the resume file path
-    link.href = 'assets\resume\my_resume.pdf'; // Change this to your actual file path
+    link.href = 'assets/resume/my_resume.pdf'; // Change this to your actual file path
 
     // 3️⃣ Set the 'download' attribute to specify the downloaded file name
     link.download = 'My_Resume.pdf'; // Change this to your preferred file name
