@@ -21,7 +21,7 @@
     <header data-bs-spy="scroll" data-bs-target="nav-target" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
       <nav
         id="nav-target"
-        class="navbar navbar-dark bg-primary text-white navbar-expand-lg px-5 rounded"
+        class="navbar navbar-dark bg-primary text-white navbar-expand-lg px-5 mx-2 rounded"
       >
         <div class="container-fluid">
           <div class="navbar-brand">
@@ -56,7 +56,7 @@
             <img src="assets\profile-pic.png" class="img-fluid rounded" alt="img" />
           </div>
           <div class="col-12 col-md-6 col-lg-5 align-items-center mt-3 p-1">
-            <h1 class="h1">Hi,</h1>
+            <h1 class="h1">Hello,</h1>
             <h2 class="h2">
               My name is <span class="text-primary">GokulPrasanna</span>.
             </h2>
@@ -81,55 +81,55 @@
     <!-- Aboutme section -->
 
     <section class="bg-primary rounded" id="section2aboutme">
-      <div class="container-fluid my-5 p-3 mx-1" >
+      <div class="container-fluid my-5 p-3 " >
         <div class="row justify-content-evenly align-items-center p-5 my-3 p-2">
-          <div class="row py-3">
+          <div class="row py-3 mb-4">
             <div class="col-12 d-flex flex-column text-center justify-content-center">
               <h2 class="text-white"><i class="bi bi-file-person-fill"></i>Aboutme</h2>
               <h5 class="text-white fw-normal py-2 fst-italic">My Journey.</h5>
             </div>
           </div>
-          <div class="row py-3 justify-content-evenly align-items-center border rounded">
-          <div class="col-sm-5-m-0 col-md-9 col-lg-5 timeline text-white">
-            <!-- Step 1 -->
-            <div>
-              <h5 class="text-white h2 pb-4 ps-2"><i class="bi bi-book"></i>Education</h5>
+          <div class="row my-3 p-5 py-3 justify-content-evenly align-items-center border rounded">
+            <div class="col-sm-5-m-0 col-md-9 col-lg-5 timeline text-white">
+              <!-- Step 1 -->
+              <div>
+                <h5 class="text-white h2 pb-3 "><i class="bi bi-book"></i>Education</h5>
+              </div>
+
+              <div class="timeline-step">
+                <h5 class="text-white"><i class="bi bi-award"></i>Bachelor's in Computer Science</h5>
+                <p>Mookambigai College of Engineering, 2021 - 2025</p>
+             </div>
+
+              <!-- Step 2 -->
+              <div class="timeline-step">
+                <h5 class="text-white"><i class="bi bi-award"></i>Higher Secondary (12th Grade)</h5>
+                <p>Bishop Heber HS School, 2019 - 2021</p>
+              </div>
             </div>
 
-            <div class="timeline-step">
-              <h5 class="text-white"><i class="bi bi-award"></i>Bachelor's in Computer Science</h5>
-              <p>Mookambigai College of Engineering, 2021 - 2025</p>
-            </div>
+            <div class="col-sm-5 col-md-9 col-lg-6 text-white align-items-center mt-3 p-1">
+              <div class="display-7 align-items-center p-1">
+                <p>
+                  I'm Gokul Prasanna B, a MEAN stack developer with a passion for
+                  creating engaging and efficient web applications. My background
+                  in computer science, combined with hands-on experience building
+                  projects like a Restaurant Billing System using Python and an
+                  Advanced QR Code Generator, allows me to approach challenges
+                  with a practical and innovative mindset. I'm particularly
+                  interested in front-end development and crafting user-friendly
+                  experiences.
+                </p>
+              </div>
 
-            <!-- Step 2 -->
-            <div class="timeline-step">
-              <h5 class="text-white"><i class="bi bi-award"></i>Higher Secondary (12th Grade)</h5>
-              <p>Bishop Heber HS School, 2019 - 2021</p>
+              <div class="pb-4">
+                <button type="button" class="btn btn-success" onclick="downloadResume()"><i class="bi bi-file-earmark-arrow-down"></i>Resume</button>
+                <a href="#section4contact">     <button type="button" class="btn btn-secondary"><i class="bi bi-person-vcard"></i>
+                  Contact Me
+                </button></a>
+              </div>
             </div>
           </div>
-
-          <div class="col-sm-5 col-md-9 col-lg-6 text-white align-items-center mt-3 p-1">
-            <div class="display-7 align-items-center p-1">
-              <p>
-                I'm Gokul Prasanna B, a MEAN stack developer with a passion for
-                creating engaging and efficient web applications. My background
-                in computer science, combined with hands-on experience building
-                projects like a Restaurant Billing System using Python and an
-                Advanced QR Code Generator, allows me to approach challenges
-                with a practical and innovative mindset. I'm particularly
-                interested in front-end development and crafting user-friendly
-                experiences.
-              </p>
-            </div>
-
-            <div class="pb-4">
-              <button type="button" class="btn btn-success" onclick="downloadResume()"><i class="bi bi-file-earmark-arrow-down"></i>Resume</button>
-              <a href="#section4contact"><button type="button" class="btn btn-secondary"><i class="bi bi-person-vcard"></i>
-                Contact Me
-              </button></a>
-            </div>
-          </div>
-        </div>
         </div>
       </div>
     </section>
@@ -257,9 +257,9 @@
       </div>
     </div>
   </div>
-  <div class="container-fluiid mt-5 py-3 ">
+  <div class="container-fluiid mt-5 py-3">
     <div class="row d-flex justify-content-evenly align-items-center">
-      <div class="col-12 col-md-5 col-lg-5 border rounded shadow"><div id="map" class="img-fluid"></div></div>
+      <div class="col-12 col-md-5 col-lg-5 border rounded shadow m-1 p-2"><div id="map" class="img-fluid "></div></div>
       <div class="col-12 col-md-6 col-lg-5 border rounded shadow">
 
         <div class="card mt-1">
